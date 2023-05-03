@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head') %>
+
+  <body class="d-flex flex-column min-vh-100">
+    <%- include('partials/nav') %>
+      <div class="container-xxl">
+        <div class="mt-5 pt-3">
+          <h2>
+            <%= data.strMeal %>
+          </h2>
+
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                <%= data.strInstructions %>
+              </p>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <% for (let i=0; i < test.ingredients.length; i++){ %>
+                  <li>
+                    <%= test.measures[i] %> : <%= test.ingredients[i] %>
+                  </li>
+                  <% } %>
+              </ul>
+            </div>
+          </div>
+          <!-- <img src="<%= data.strMealThumb %>" alt="" /> -->
+        </div>
+      </div>
+
+      <%- include('partials/footer') %>
+  </body>
+
+</html>

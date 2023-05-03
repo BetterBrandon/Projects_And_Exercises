@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head') %>
+
+  <body class="d-flex flex-column min-vh-100">
+    <%- include('partials/nav') %>
+      <div class="container-xxl">
+        <div class="mt-5 pt-3">
+          <h2> Here at the categoires
+          </h2>
+
+        <!-- <% for(let d of data) {%>
+
+
+        <% } %> -->
+        <h3><%= data[0].strCategory %></h3>
+        <img src=" <%= data[0].strCategoryThumb %> "  alt="">
+        <p><%= data[0].strCategoryDescription %></p>
+
+
+          <!-- <img src="<%= data.strMealThumb %>" alt="" /> -->
+        </div>
+      </div>
+
+      <%- include('partials/footer') %>
+  </body>
+
+</html>

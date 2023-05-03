@@ -1,0 +1,19 @@
+.container img {
+  margin: 8px;
+  border: 2px solid black;
+  display: block;
+}
+
+h1 {
+  font-family: "Sassy Frass";
+  font-size: 4em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+div {
+  display: inline-block;
+  text-align: center;
+}
