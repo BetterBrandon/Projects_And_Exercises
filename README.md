@@ -6,4 +6,4 @@ A public repo where I can showcase projects and exercises that I have completed!
 
 **Projects** I consider being more in depth coding examples that take more time and effort. They will consist of multiple technologies working together to create a cohesive product.
 
-## Technologies I have experience with:
+## See them in action
